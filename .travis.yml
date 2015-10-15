@@ -1,0 +1,7 @@
+before_install:
+  - sudo apt-get install -y publican
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/Kahn/preposterous-publican.git
+  - secure: M7MTnsBtA3+VIwat+MjeTeh3coCUozYpX+0OoJo7HcDyso/Vy77FgdpEvwtIAy27fXkUIshiYlbR5LVw359iObgZd9yZ9WWAqD2PDKzkoBUkXlhbUGDgBvB01Oi3cG6xU1TneEiw0JiMIdiy/+eblbq0wg8AjHiVHzbM0A35T8ZV8yO0WCam5DV0g9iQtBHo03WgsUgqS2orsxtfiF47EEynzBk4wK0lTDPdr9HwZaoK7dqpP/RJsbrLSDiUXrI2c3XEsk0VOuSuHhsDZN262BLsHMo/UXR2TTX4WTT+tCt1tsaTPJFht8fUz3eeXjl1V2AZ4oxf0eXX/gdTbaof3/n3wxVoHvmj0MPavsAS2iGdktoHTfaDHEqviEntZMe4qhEJZY75vY+KU/4gkuFpGL4ZhQv8PfxpSXqUmEcuEjBgxReQPPt4KNeMQDr0Sjr/918laRfQ/vEBdy8CzzLOPL42j/rmXHpPQRcfP/6Ip76CG+OXSsBdQoclaPXhom5zGpSuyK8t9+EnxKCpqkRlemdmkvKOn2eZPJ8i33wPclvtxmNEK2wzdWKuW6KU3igdIgPdkot7UnxtWsYV5BtgjxuSUQmz0Ubk7PYa2804PeFxFe1nrbfMQVMQX1WD1As9Zx8t/DnZsqdm+2aI3hQUTxtUq9DUjWRU+p2hc0pnv1g=
