@@ -3,18 +3,18 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "preposterous-publican.ent">
 %BOOK_ENTITIES;
 ]>
-<chapter id="chap-Documentation-preposterous-publican-Test_Chapter">
+<chapter id="chap-Documentation-preposterous-publican-Test_Chapter0">
 	<title>Test Chapter0</title>
 	<para>
 		This is a test paragraph
 	</para>
-	<section id="sect-Documentation-preposterous-publican-Test_Chapter-Test_Section_1">
+	<section id="sect-Documentation-preposterous-publican-Test_Chapter0-Test_Section_1">
 		<title>Test Section 1</title>
 		<para>
 			This is a test paragraph in a section
 		</para>
 	</section>
-	<section id="sect-Documentation-preposterous-publican-Test_Chapter-Test_Section_2">
+	<section id="sect-Documentation-preposterous-publican-Test_Chapter0-Test_Section_2">
 		<title>Test Section 2</title>
 		<para>
 			This is a test paragraph in Section 2
